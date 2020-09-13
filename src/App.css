@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700;900&display=swap');
+
+:root{
+    --colorDark: #03071E;
+    --colorBrownDark: #370617;
+    --colorBrown: #6A040F;
+    --colorBrownLigth: #9D0208;
+    --colorOrangeDark: #D00000;
+    --colorOrange: #DC2F02;
+    --colorOrangeLigth: #E85D04;
+    --colorYellowDark: #F48C06;
+    --colorYellow: #FAA307;
+    --colorYellowLight: #FFBA08;
+}
+body, html{
+    font-size: 16px;
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif
+
+}
+
+body{
+    background-color: var(--colorDark);
+    color:white;
+}
+
+a{
+    color: var(--colorYellowDark);
+    text-decoration: none;
+    line-height: initial;
+}
+
+.container{
+    margin:0 1rem
+}
+
+.btn{
+    background: #D00000;
+    border: none;
+    border-radius: .5rem;
+    color: var(--colorYellowLight);
+    font-weight: 700;
+    font-family: inherit;
+    padding: .5rem 1rem;
+
+}  
+    .btn--primary{
+        background: var(--colorYellowDark);
+        color: var(--colorBrownDark);
+    }

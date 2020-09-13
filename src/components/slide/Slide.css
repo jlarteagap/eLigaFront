@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+
+.slide{
+    background-image: url(../../img/slide.jpg);
+    background-color: var(--colorOrange);
+    background-blend-mode: multiply;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    margin: 0 -1rem;
+    padding: 5rem 1rem;
+    text-align: center;
+}
+
+.slide__tittle{
+    font-family: 'Permanent Marker', cursive;
+    font-size: 4rem;
+    line-height: 0;
+}
