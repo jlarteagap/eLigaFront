@@ -17,7 +17,8 @@ export default class BboysList extends React.Component {
   render() {
     return (
       <ul>
-        { this.state.bboys.map(bboy => <li>{bboy.name}</li>)}
+        { this.state.bboys.map(bboy => 
+        <li key={bboy.id}>{bboy.name}</li>)}
       </ul>
     )
   }
