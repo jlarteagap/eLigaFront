@@ -49,3 +49,17 @@ a{
         background: var(--colorYellowDark);
         color: var(--colorBrownDark);
     }
+
+/* MAIN CONTENT */
+.content{
+    display: grid;
+    grid-template-columns: 1fr 35%;
+    margin: 2rem 0;
+} 
+
+/* SIDEBAR */
+.sidebar{
+    
+    padding: 1rem;
+    border-radius: .5rem;
+}

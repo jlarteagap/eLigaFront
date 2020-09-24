@@ -2,7 +2,7 @@ import React from 'react';
 import axios from 'axios';
 
 export default class BboysList extends React.Component {
-  state = {
+/*  state = {
     bboys: []
   }
 
@@ -13,7 +13,7 @@ export default class BboysList extends React.Component {
         this.setState({ bboys });
       })
   }
-
+*/
   render() {
     return (
       <ul>

@@ -1,0 +1,45 @@
+.rank__list{
+    align-items: center;
+    border-bottom: 1px solid var(--colorDark);
+    display: grid;
+    grid-template-columns: 3rem 1fr 1fr 3rem;
+    grid-gap: 0 1rem;
+    justify-content: center;
+    margin: 0 0 1rem 0;
+    padding: 0 0 1rem 0;
+}
+
+    .rank__bboy--profile{
+        background: var(--colorOrangeDark);
+        border: solid 1px white;
+        grid-row: span 2;
+        border-radius: 50%;
+        box-sizing: border-box;
+        height: 3rem;
+        width: 3rem;
+    }
+    .rank__bboy--name{
+        color: var(--colorYellowLight);
+        font-size: 2rem;
+        grid-column: span 2;
+    }
+    .rank__bboy--crew{
+        grid-column: 2 / 3;
+        grid-row: 2 / 3;
+    }
+    .rank__bboy--city{
+        grid-column: 3 / 4;
+        grid-row: 2 / 3;
+    }
+    .rank__bboys--point{
+        background-color: var(--colorYellowLight);
+        color: white;
+        height: 3rem;
+        width: 3rem;
+        border-radius: 0.25rem;
+        padding: .5rem;
+        box-sizing: border-box;
+        font-size: 1.5rem;
+        grid-row: span 2;
+    }
+
