@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/eLigaFront/static/css/main.fed4e68c.chunk.css",
+    "main.js": "/eLigaFront/static/js/main.517241dd.chunk.js",
+    "main.js.map": "/eLigaFront/static/js/main.517241dd.chunk.js.map",
+    "runtime-main.js": "/eLigaFront/static/js/runtime-main.c3e0bbcd.js",
+    "runtime-main.js.map": "/eLigaFront/static/js/runtime-main.c3e0bbcd.js.map",
+    "static/js/2.7a130def.chunk.js": "/eLigaFront/static/js/2.7a130def.chunk.js",
+    "static/js/2.7a130def.chunk.js.map": "/eLigaFront/static/js/2.7a130def.chunk.js.map",
+    "index.html": "/eLigaFront/index.html",
+    "precache-manifest.01be0f91bba76c83b723627be8d0ed54.js": "/eLigaFront/precache-manifest.01be0f91bba76c83b723627be8d0ed54.js",
+    "service-worker.js": "/eLigaFront/service-worker.js",
+    "static/css/main.fed4e68c.chunk.css.map": "/eLigaFront/static/css/main.fed4e68c.chunk.css.map",
+    "static/js/2.7a130def.chunk.js.LICENSE.txt": "/eLigaFront/static/js/2.7a130def.chunk.js.LICENSE.txt",
+    "static/media/Slide.css": "/eLigaFront/static/media/slide.7138c8c5.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.c3e0bbcd.js",
+    "static/js/2.7a130def.chunk.js",
+    "static/css/main.fed4e68c.chunk.css",
+    "static/js/main.517241dd.chunk.js"
+  ]
+}
