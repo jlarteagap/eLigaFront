@@ -20,7 +20,7 @@
     }
     .rank__bboy--name{
         color: var(--colorYellowLight);
-        font-size: 2rem;
+        font-size: 1.25rem;
         grid-column: span 2;
     }
     .rank__bboy--crew{

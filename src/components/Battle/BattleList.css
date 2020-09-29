@@ -1,0 +1,37 @@
+.battle__content{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 1rem 2rem;
+}
+
+.battles{
+    align-items: center;
+    background: white;
+    border-radius: 0.5rem;
+    color: var(--colorDark);
+    display: grid;
+    grid-template-columns: 1fr 3rem 1fr;
+    grid-gap: 1rem;
+    justify-content: center;
+    padding: 1rem 1.5rem;
+}
+    .battle__bboy{
+        color: var(--colorBrownDark);
+        font-size: 1.25rem;
+    }
+    .battle_vs{
+        background: var(--colorYellow);
+        color: white;
+        height: 3rem;
+        width: 3rem;
+        border-radius: 0.25rem;
+        padding: .5rem;
+        box-sizing: border-box;
+        font-size: 1.5rem;
+    }
+    .battle__des{
+        grid-column: 1 / 3;
+    }
+    .battle__btn{
+        grid-column: 3 / -1;
+    }

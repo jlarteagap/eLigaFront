@@ -5,6 +5,7 @@ import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 /* import BboysList from './components/BboysList' */
 import Header from './components/header'
 import Ranking from './components/Ranking/Ranking'
+import BatleList from './components/Battle/BatleList'
 export default function App() {
   return (
     <Router>
@@ -15,7 +16,7 @@ export default function App() {
             
             <div className="content">
               <div className="">
-                Hola
+                <BatleList />
               </div>
               <Ranking />
             </div>
